@@ -1,0 +1,85 @@
+/* #000000 #CFFFE2 #A2D5C6 #F6F6F6 */
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  color: black;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.container {
+  height: auto;
+  width: auto;
+  background-color: #CFFFE2;
+  border: 2px solid #A2D5C6;
+  margin-top: 10%;
+  
+  align-items: center;
+  border-radius: 20px;
+  padding: 15px;
+}
+#timer {
+  background-color: #CFFFE2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  background-color: #CFFFE2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+.title{
+  background-color: #A2D5C6;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+h1{
+  background-color: #CFFFE2;
+  color: black;
+  font-weight: bold;
+}
+#hours, #minutes, #second {
+  height: 10vh;
+  width: 10vh;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #A2D5C6;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+}
+p{
+  background-color: #A2D5C6
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  background-color: #CFFFE2;
+  margin: 20px;
+}
+#reset, #start, #pause, #restart {
+  height: 5vh;
+  width: 15vh;
+  background-color: #F6F6F6;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#hide {
+  display: none;
+}
