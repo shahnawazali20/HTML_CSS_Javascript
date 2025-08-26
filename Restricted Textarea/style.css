@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  margin: 10px;
+}
+label{
+  padding: 20px;
+  margin: 10px;
+}
+.main{
+  height: 350px;
+  width: 50vw;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10vh auto;
+}
+#textarea{
+  height: 150px;
+  width: 40vw;
+  overflow-y: scroll;
+  direction: ltr;
+  text-align: left;
+  padding: 10px;
+  margin: 25px auto;
+  display: flex;
+}
+#textarea:focus{
+  outline: none;
+}
+#text{
+  text-align: right;
+  padding-right: 5vw;
+}
